@@ -117,23 +117,21 @@
         </select>
       </fieldset>
     </div>
-    <p>Групи овочів:</p>
-    <dl>
-      <dt>
-        Бульбоплоди:
-      </dt>
-      <dd> картопля, батат (солодка картопля)</dd>
-      <dd> топінамбур (земляна груша)</dd>
-    </dl>
-    <p> Коринеплоди</p>
-    <dl>
-      <dd> морква</dd>
-      <dd> буряк столовий</dd>
-      <dd> петрушка</dd>
-    </dl>
-
-
-    
+    <h3>Групи овочів:</h3>
+    <div>
+      <select name="vegetables">
+        <optgroup label="Бульбоплоди:">
+          <option value="картопля, батат (солодка картопля)">картопля, батат (солодка картопля)</option>
+          <option value="топінамбур (земляна груша)">топінамбур (земляна груша)</option>
+        </optgroup>
+        <optgroup label="Коринеплоди:">
+          <option value="морква">морква</option>
+          <option value="буряк столовий">буряк столовий</option>
+          <option value="петрушка"></option>
+        </optgroup>
+      </select>
+    </div>
+    <br>    
     <input type="submit" value="Відправити">
     <input type="reset" value="Очистити форму">
   </form>
