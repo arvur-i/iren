@@ -1,0 +1,124 @@
+#one th {
+  background: #009586;
+}
+
+#one tbody tr:nth-child(odd){
+  background-color : #F1D2D6;
+}
+
+/* стилі до таблиці 2 */
+
+#two {
+  background-color: #A7DAD3;
+  padding: 3px 2px;
+}
+
+#two tbody td {
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+/* стилі до таблиці 3 */
+
+#three thead tr {
+  background: #E9F3F9;
+}
+
+#three thead tr:last-child {
+  background: #C9BD92;
+}
+
+#three {
+  width:580px;
+}
+
+#three tbody tr {
+  background-color: #88B8D4;
+}
+
+#three tbody tr:nth-child(odd) {
+background-color: pink;
+}
+
+/* стилі до таблиці 4 шахи */
+
+#four tbody td {
+  width: 90px;
+  height: 90px;
+}
+
+#four tbody td:nth-child(odd) {
+  background-color: green;
+}
+
+#four tbody tr:nth-child(even) td:nth-child(odd) {
+  background-color: #fff;
+}
+
+#four tbody tr:nth-child(even) td:nth-child(even) {
+  background-color: green;
+}
+
+/* стилі до таблиці 5 */
+:root {
+  --procent: 20%;
+  --white: white;
+  --red: red;
+  --blue: blue;
+  --yellow: yellow;
+  --green: green;
+}
+#five tbody tr td {
+  background: linear-gradient(to right, var(--red) 0, var(--red) var(--procent), var(--white) var(--procent), var(--white) 100%);
+}
+
+#five tbody tr td:nth-child(2),
+#five tbody tr td:nth-child(6) {
+  background: linear-gradient(to right, var(--blue) 0, var(--blue) var(--procent), var(--white) var(--procent), var(--white) 100%);
+}
+
+#five tbody tr td:nth-child(3),
+#five tbody tr td:nth-child(7) {
+  background: linear-gradient(to right, var(--yellow) 0, var(--yellow) var(--procent), var(--white) var(--procent), var(--white) 100%);
+}
+
+#five tbody tr td:nth-child(4),
+#five tbody tr td:nth-child(8) {
+  background: linear-gradient(to right, var(--green) 0, var(--green) var(--procent), var(--white) var(--procent), var(--white) 100%);
+}
+
+/* стилі тексту */
+
+p span {
+  color:red;
+}
+
+p.green {
+  color: green;
+}
+
+/* стилі тексту з фоном */
+
+.bg-text {
+  background: url(https://phonoteka.org/uploads/posts/2021-03/thumbs/1616369268_48-p-fon-listya-56.jpg) no-repeat center center / cover;
+
+  padding: 30px;
+
+  /* padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px; */
+}
+
+.bg-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+span.brown {
+  color: #000;
+}
+
+span.pink {
+color:#A23A42 ;
+}

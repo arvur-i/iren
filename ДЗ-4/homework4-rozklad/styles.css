@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+}
+
+#table {
+  padding: 129px 91px;
+   background: url('https://fs01.vseosvita.ua/010066wy-9335/001.jpg') no-repeat center center / 100% 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+#table table {
+  width: 250px;
+ 
+}
+
+#table table caption {
+  color: brown;
+}
+
+#table table tbody tr td:first-child {
+  color: red;
+}
+
+#table table tbody tr td.control-work {
+  color: brown;
+}

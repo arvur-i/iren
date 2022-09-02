@@ -1,0 +1,48 @@
+
+.bg-pink {
+  background: pink;
+}
+
+.bg-azure {
+  background:azure;
+}
+
+table {
+  text-align: center;
+}
+
+table thead tr th {
+  background:#0000ff;
+}
+
+table thead tr:last-child th {
+  background: #F2F2F2;
+}
+
+table tbody td div {
+  color: red;
+}
+
+table tbody tr td:first-child {
+  background: #F2F2F2;
+}
+
+/* стилі коду */
+
+p[id] {
+  color: yellow
+}
+
+a.ok,
+p.last {
+  color: #D85100;
+}
+
+p a:nth-child(2) {
+  color: green;
+}
+
+p a:nth-child(3) {
+  color: red;
+}
+
